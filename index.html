@@ -7,43 +7,28 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="https://kit.fontawesome.com/e00f99cff5.js" crossorigin="anonymous"></script>
-    <title>Cosmo Quotes<link rel=“icon” type=“image/png” href=“assets/images/whateverpicture.png” /></title>
+    <title>Cosmo Quotes</title>
+    <link rel="icon" type="image/png" href="assets/css/space-icon.png" />
 </head>
 
 <body>
-    <nav>
-        <header>Cosmo Quotes</header>
-    </nav>
-    <section>
-        <hero>
+    <header class="header">Cosmo Quotes</header>
 
-            <body>
-                <div class="container col s12 m6">
-                    <!-- Space API photos appear here -->
-                </div>
-            </body>
-            <div>
-                <!-- Inspirational Qoute API appears here -->
-            </div>
-            <button>
-                <!-- Click to generate daily space photo and inspirational qoute -->
-            </button>
-        </hero>
-    </section>
     <section>
+        <body>
+            <div class="container col s12 m6">
+                <!-- Space API photos appear here -->
+                <img id="main-img" class="responsive-img">
+            </div>
+        </body>
         <div class="row">
-            <div class="col s6 m3 pull l6">
-                <!-- share button appears here -->
-                <button id="button" class="share">
-                    <i class="fas fa-share-square"></i> 
-                </button>
-            </div>
-
-            <div class="col s6 m3 push l6">
+            <div class="col s6 m3 push l6 button">
                 <!-- Save button appears here -->
-                <button id="button" class="save"> 
-                    <i class="far fa-heart"></i> 
-                  
+                <button id="button" class="btn-floating">
+                    <i class="far fa-heart "></i>
+                </button>
+                <button id="button" class="btn-floating">
+                    <i></i>
                 </button>
             </div>
         </div>
@@ -51,6 +36,7 @@
     </section>
 
     <!-- Link script.js here -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="assets/css/js/script.js"></script>
 </body>
 

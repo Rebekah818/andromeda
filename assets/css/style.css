@@ -1,7 +1,9 @@
-.hero {
-    height: 100%;
+.header {
+    height: 50px;
+    text-align: center;
+    padding-top: 25px;
+    font-size: large;
+    font-weight: bolder;
+    opacity: .5;
+
 }
-button {
-    width: 100px;
-    border-radius: rounded;
-} 
