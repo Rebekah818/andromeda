@@ -10,3 +10,7 @@ button {
     width: 100px;
     border-radius: rounded;
 } 
+#page-quote{
+    font-family: Georgia, serif;
+    color: white;
+}
