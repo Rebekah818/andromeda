@@ -8,54 +8,43 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/e00f99cff5.js" crossorigin="anonymous"></script>
-    <title>Cosmo Quotes<link rel=“icon” type=“image/png” href=“assets/images/whateverpicture.png” /></title>
+    <title>Cosmo Quotes
+        <link rel=“icon” type=“image/png” href=“assets/images/whateverpicture.png” />
+    </title>
+    <link rel="icon" type="image/png" href="assets/css/space-icon.png" />
 </head>
 
 <body id="space-img">
     <nav>
-        <header>Cosmo Quotes</header>
-    </nav>
-    <section>
-        <hero>
+        <header class="header">Cosmo Quotes</header>
 
-            <body>
-                <div class="container col s12 m6">
-                    <!-- Space API photos appear here -->
-                </div>
-            </body>
-            <div>
-                <!-- Inspirational Qoute API appears here -->
-                  <p id="page-quote"></p>
-            </div>
-            <button>
-                <!-- Click to generate daily space photo and inspirational qoute -->
-            </button>
-        </hero>
-    </section>
-    <section>
-        <div class="row">
-            <div class="col s6 m3 pull l6">
-                <!-- share button appears here -->
-                <button id="button" class="share">
-                    <i class="fas fa-share-square"></i> 
-                </button>
-            </div>
+        <section>
+            <hero>
 
-            <div class="col s6 m3 push l6">
-                <!-- Save button appears here -->
-                <button id="button" class="save"> 
-                    <i class="far fa-heart"></i> 
-                  
-                </button>
-            </div>
-        </div>
+                <body>
+                    <div class="container col s12 m6">
+                        <!-- Space API photos appear here -->
+                        <img class="responsive-img">
+                    </div>
 
-    </section>
+                    <div class="row">
+                        <div class="col s6 m3 push 16 button">
+                             <p id="page-quote"></p>
+                            <button id="button-1" class="btn-floating">
+                                <i class="hoverable far fa-heart "></i>
+                            </button>
+                            <button id="button-2" class="btn-floating">
+                                <i class="hoverable left-align far fa-images"></i>
+                            </button>
+                        </div>
+                    </div>
 
-    <!-- Link script.js here -->
-    <script src="assets/css/js/quote.js"></script>
-    <script src="assets/css/js/script.js"></script>
-    <script src="assets/css/js/apod.js"></script>
+        </section>
+
+        <!-- Link script.js here -->
+        <script src="assets/css/js/quote.js"></script>
+        <script src="assets/css/js/script.js"></script>
+        <script src="assets/css/js/apod.js"></script>
 </body>
 
 </html>
