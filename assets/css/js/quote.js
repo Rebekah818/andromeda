@@ -8,3 +8,4 @@ var getQuoteArray = function(apiURL) {
       $("#page-quote").text(randomQuote);
   });
 };
+getQuote();
