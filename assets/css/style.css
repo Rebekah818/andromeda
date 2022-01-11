@@ -6,6 +6,11 @@ body {
 #page-quote{
     font-family: Georgia, serif;
     color: white;
+    background-color: rgb(0,0,0,0.6);
+    border-radius: 5%;
+    font-size: large;
+    line-height: 2;
+    padding: 20px;
 }
 .header {
     background-color: white;
