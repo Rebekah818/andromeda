@@ -11,12 +11,11 @@ function displayAlbum() {
       let imageUrl = album.url;
 
       savedImg.setAttribute("src", imageUrl);
-      savedQuote.setAttribute("class", "history-quote");
+      savedImg.setAttribute("class", "col-12")
 
       savedQuote.textContent = album.quote;
 
-      savedImg.append(savedQuote);
-      albumContainer.append(savedImg);
+      albumContainer.append(savedImg, savedQuote);
       historyContainer.append(albumContainer);
     });
   }
