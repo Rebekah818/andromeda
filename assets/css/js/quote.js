@@ -5,6 +5,7 @@ var getQuoteArray = function(apiURL) {
   })
   .then(function(data) {
       var randomQuote = data[Math.floor(Math.random() * (1643 - 0 + 1) + 0)].text;
-     return randomQuote
+      $("#page-quote").text(randomQuote);
   });
 };
+getQuote();

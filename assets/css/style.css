@@ -3,17 +3,26 @@ body {
     background-size: cover;
     
 }
-nav {
-    background-color: #ffffff;
-    opacity: 0.2;
+#page-quote{
+    font-family: Georgia, serif;
+    color: white;
 }
-header {
-    color:#ffffff;
+.header {
+    background-color: white;
+    height: 50px;
+    text-align: center;
+    padding-top: 25px;
+    font-size: large;
+    font-weight: bolder;
+    opacity: .5;
+
 }
-.hero {
-    height: 100%;
+#button-1 { 
+    background-color: black;
+    margin-top: 450px;
+  
 }
-button {
-    width: 100px;
-    border-radius: rounded;
-} 
+#button-2 {
+    background-color: black;
+    margin-top: 450px;
+}
