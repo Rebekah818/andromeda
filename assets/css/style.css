@@ -1,8 +1,7 @@
 body {
     height: 100vh;
     background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
+    align-items: center;
 }
 #page-quote{
     font-family: Georgia, serif;
@@ -25,12 +24,13 @@ body {
 }
 #button-1 { 
     background-color: black;
-    margin-top: 450px;
-  
+    margin-top: 800px;
+    
 }
 #button-2 {
     background-color: black;
-    margin-top: 450px;
+    margin-top: 800px;
+    
 }
 img {
     display:block;
@@ -38,4 +38,8 @@ img {
     height: auto;
     margin-left: auto;
     margin-right: auto;
+}
+.responsive {
+    width: 100%;
+    height: auto;
 }
