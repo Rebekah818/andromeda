@@ -3,6 +3,13 @@ body {
     background-size: cover;
     
 }
+nav {
+    background-color: #ffffff;
+    opacity: 0.2;
+}
+header {
+    color:#ffffff;
+}
 .hero {
     height: 100%;
 }
