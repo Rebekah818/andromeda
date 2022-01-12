@@ -5,17 +5,26 @@ function displayAlbum() {
   if (previousSaved) {
     previousSaved.forEach(function (album) {
       const albumContainer = document.createElement("div");
+      const cardContainer = document.createElement("div");
+      const imgContainer = document.createElement("div");
       const savedImg = document.createElement("img");
-      const savedQuote = document.createElement("div");
+      const contentContainer = document.createElement("div");
+      const savedQuote = document.createElement("p");
 
       let imageUrl = album.url;
 
+      albumContainer.setAttribute("class", "col s6");
+      cardContainer.setAttribute("class", "card lard");
+      imgContainer.setAttribute("class", "card-image");
       savedImg.setAttribute("src", imageUrl);
-      savedImg.setAttribute("class", "col-12")
+      contentContainer.setAttribute("class", "card-content");
 
-      savedQuote.textContent = album.quote;
+      savedQuote.textContent = `"${album.quote}"`;
 
-      albumContainer.append(savedImg, savedQuote);
+      imgContainer.appendChild(savedImg);
+      contentContainer.appendChild(savedQuote);
+      cardContainer.append(imgContainer, contentContainer);
+      albumContainer.append(cardContainer);
       historyContainer.append(albumContainer);
     });
   }

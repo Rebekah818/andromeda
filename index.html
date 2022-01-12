@@ -1,46 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://kit.fontawesome.com/e00f99cff5.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/e00f99cff5.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Cosmo Quotes</title>
     <link rel="icon" type="image/png" href="assets/css/space-travel.png" />
-</head>
+  </head>
 
+  <body>
+    <div id="space-img">
+      <header class="header">Cosmo Quotes</header>
 
-<body id="space-img" class="responsive-img">
-
-    <header class="header">Cosmo Quotes</header>
-
-    <section>
-
+      <section>
         <div class="container">
-            <!-- Space API photo and quote appear here -->
-            <img class="responsive-img ">
+          <!-- Space API photo and quote appear here -->
         </div>
 
         <div class="row">
-            <!-- add save and album button here -->
-            <div class="col s6 m3 push 16 button">
-                <p id="page-quote"></p>
-                <button id="button-1" class="btn-floating">
-                    <i class="hoverable far fa-heart "></i>
-                </button>
-                <a href="album.html" id="button-2" class="btn-floating">
-                    <i class="hoverable left-align far fa-images"></i>
-                </a>
-            </div>
+          <!-- add save and album button here -->
+          <div class="col s6 m3 push 16 button">
+            <p id="page-quote"></p>
+            <button id="button-1" class="btn-floating">
+              <i class="hoverable far fa-heart"></i>
+            </button>
+            <a href="album.html" id="button-2" class="btn-floating">
+              <i class="hoverable left-align far fa-images"></i>
+            </a>
+          </div>
         </div>
+      </section>
+    </div>
 
-    </section>
+    <div id="welcome-screen">
+      <h2>Welcome to Cosmo Quotes!</h2>
+      <h3>
+        Your daily reminder to enjoy the <br />
+        <span id="space-text">SPACE</span> <br />
+        between where you are, and where you are going.
+      </h3>
+      <br />
+      <p class="p-2">Click anywhere to enter!</p>
+    </div>
 
     <!-- Link script.js here -->
     <script src="assets/css/js/script.js"></script>
-</body>
-
+  </body>
 </html>
