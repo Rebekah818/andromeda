@@ -6,7 +6,7 @@ $(document).ready(function () {
 
   async function getApod() {
     const response = await fetch(
-      `https://api.nasa.gov/planetary/apod?api_key=CamLBC9eJwRQEcdg2oafBlPIrOFX5MqqPM8oazvO`
+      `https://api.nasa.gov/planetary/apod?api_key=CamLBC9eJwRQEcdg2oafBlPIrOFX5MqqPM8oazvO&date=2019-11-21`
     );
     const res = await response.json();
 
