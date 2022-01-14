@@ -13,8 +13,8 @@ function displayAlbum() {
 
       let imageUrl = album.url;
 
-      albumContainer.setAttribute("class", "col s6");
-      cardContainer.setAttribute("class", "card lard");
+      albumContainer.setAttribute("class", "col s12 m6");
+      cardContainer.setAttribute("class", "card large z-depth-5");
       imgContainer.setAttribute("class", "card-image");
       savedImg.setAttribute("src", imageUrl);
       contentContainer.setAttribute("class", "card-content");
